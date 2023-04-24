@@ -34,7 +34,7 @@
     align-items: center;
 }
 .header-nav {
- 
+border-bottom: 1px solid #e7e9fc;
 }
 
 .main-header {
@@ -96,15 +96,18 @@ button {
 }
 
 .container {
-    width: 1440px;
+    
     margin: 0 auto;
     padding: 0 15px;
-
+width: 1158px;
     outline: 2px solid red;
     outline-offset: -2px;
 
 }
-
+.navigation {
+    display: flex;
+    align-items: center;
+}
 .navigation-logo {
 margin-right: 76px;
 margin-top: 24px;
@@ -117,6 +120,8 @@ margin-bottom: 24px;
     margin-right: auto;
     margin-top: 24px;
     margin-bottom: 24px;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-link {
