@@ -97,13 +97,14 @@ img {
 .navigation-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
     margin-right: 316px;
 
 }
 
 .navigation-logo {
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .address {
@@ -234,14 +235,17 @@ gap: 24px;
 }
 
 .navigation-logo {
-    display: inline-block;
-    padding-bottom: 16px;
+   
 }
 
 .footer-body {
     max-width: 264px;
 }
 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 /* portfolio */
 /* section geo */
 .filter {
