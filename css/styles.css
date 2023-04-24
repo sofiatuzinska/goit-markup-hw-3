@@ -36,6 +36,56 @@
 .header-nav {
  
 }
+
+.main-header {
+    padding-top: 188px;
+    margin-bottom: 48px;
+    width: 496px;
+margin-left: 472px;
+
+}
+
+.button-index {
+    min-width: 169px;
+    min-height: 56px;
+    padding: 16px 32px;
+    border-radius: 4px;
+background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    margin-bottom: 188px;
+    margin-left: 636px;
+}
+
+.list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 120px 156px;
+}
+
+.list-section-two {
+    
+   
+}
+
+.section-two-cont {
+width: 1128px;
+    justify-content: center;
+  
+}
+.header-three-index {
+    display: flex;
+    width: 323px;
+    margin-bottom: 8px;
+}
+
+.text-index {
+    display: flex;
+        
+        width: 264px;
+}
+
 img {
     display: block;
 
@@ -202,6 +252,13 @@ line-height: 1.5;
 letter-spacing: 0.04em
 
 
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em
+
 }
 
 .button:hover {
@@ -274,12 +331,16 @@ color: #2e2f42;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
+font-weight: 700;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 
 }
 
+.container-three {
+ width: 1128;
+}
 .section-four {
     background-color: #F4F4FD;
 }
@@ -291,12 +352,45 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    font-weight: 700;
+
+}
+
+.our-team {
+    padding-top: 120px;
+}
+.section-four-list {
+    background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+}
+
+.cont-four {
 
 }
 
 .section-four-list {
-    background-color: #FFFFFF;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 32px;
+        width: 264px;
+
+       
 }
+
+.text-index {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-three-index {
+    padding-top: 32px;
+   
+}
+
 
 /* FOOTER */
 
@@ -375,4 +469,15 @@ color: #f4f4fd;
     text-decoration: none;
     color: var(--navy-blue);
 
+}
+
+.footer-cont {
+    
+    padding-left: 156px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.footer-body {
+    width: 264px;
 }
