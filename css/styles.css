@@ -223,7 +223,9 @@ gap: 24px;
 .header-three-index {
     text-align: center;
 }
-
+.header-three{
+    margin-bottom: 8px;
+}
 .text-index {
     text-align: center;
 }
@@ -253,7 +255,7 @@ margin-bottom: 16px;
 }
 .button-filter {
 padding: 12px 24px;
-border: 1px solid #e7e9fcl;
+border: 1px solid #e7e9fc;
 border-radius: 4px;
 }
 .button-filter:hover {
@@ -289,7 +291,7 @@ border: 1px solid transparent;
 width: calc((100% - 48px) / 3);
 }
 .app-name {
-padding: 32px 0;
+padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 }
