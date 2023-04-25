@@ -82,7 +82,9 @@ img {
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-
+.navigation-list-item {
+    padding: 24px 0;
+}
 .header-cont {
     display: flex;
 }
@@ -102,7 +104,7 @@ img {
 
 .navigation-logo {
     margin-right: 76px;
-    padding: 24px 0;
+    
 }
 
 .address {
@@ -233,7 +235,8 @@ gap: 24px;
 }
 
 .navigation-logo {
-   
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer-body {
@@ -241,8 +244,7 @@ gap: 24px;
 }
 
 .footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
+   
 }
 /* portfolio */
 /* section geo */
@@ -264,9 +266,9 @@ border: 1px solid transparent;
 
 
 .filter-list {
+    justify-content: center;
     display: flex;
     gap: 24px;
-    justify-content: center;
     margin-bottom: 72px;
 }
 
