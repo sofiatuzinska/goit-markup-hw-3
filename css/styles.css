@@ -81,9 +81,13 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    
 }
 .navigation-list-item {
-    padding: 24px 0;
+
+}
+.nav-link {
+padding: 24px 0;
 }
 .header-cont {
     display: flex;
@@ -104,7 +108,6 @@ img {
 
 .navigation-logo {
     margin-right: 76px;
-    
 }
 
 .address {
@@ -124,6 +127,11 @@ align-items: center;
 align-items: center;
 }
 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
 /* section 1 geo */
 
 .section-hero {
@@ -237,8 +245,7 @@ gap: 24px;
 }
 
 .navigation-logo {
-display: inline-block;
-margin-bottom: 16px;
+
 }
 
 .footer-body {
@@ -268,11 +275,16 @@ border: 1px solid transparent;
 
 
 .filter-list {
-    justify-content: center;
     display: flex;
+    justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
 }
+.filter-item {
+
+}
+
+
 
 .apps-list {
     display: flex;
