@@ -308,10 +308,10 @@ border: 1px solid transparent;
 .apps-list-item {
 width: calc((100% - 48px) / 3);
 }
-.item-zero-margin {
+/* .item-zero-margin {
     margin-right: 0;
     margin-bottom: 0
-}
+} */
 
 
 .app-item {
@@ -550,7 +550,7 @@ body {
     font-size: 18px;
 
     line-height: 1.17;
-    display: flex;
+    display: inline-block;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
