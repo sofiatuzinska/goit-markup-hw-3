@@ -245,7 +245,8 @@ gap: 24px;
 }
 
 .navigation-logo {
-
+padding-bottom: 24px;
+padding-top: 24px;
 }
 
 .footer-body {
